@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       newRow.innerHTML = `
         <td>Promise ${index + 1}</td>
         <td>Loading...</td>
-      `;
+      `; 
       tbody.appendChild(newRow);
     });
 
