@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Loop through promises and add rows to the table
     promises.forEach((promise, index) => {
       const newRow = document.createElement('tr');
+		newRow.setAttribute("id","loading");
       newRow.innerHTML = `
         <td>Promise ${index + 1}</td>
         <td>Loading...</td>
